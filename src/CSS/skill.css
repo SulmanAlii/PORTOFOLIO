@@ -32,6 +32,7 @@ div._skills img {
     height: 15rem;
     margin-bottom: 2rem;
     width: 100%;
+    object-fit: contain;
 }
 
 h2._title{
