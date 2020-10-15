@@ -1,0 +1,39 @@
+div.body{
+    position: absolute;
+    width: 75%;
+    right: 0;
+    top: 0;
+    height: 100vh;
+    
+    overflow-y: visible;
+    overflow-x: hidden;
+}
+
+div.body::-webkit-scrollbar{
+    overflow-y: visible;
+    width: 1rem;
+    border-radius: 0.4rem;
+}
+
+div.body::-webkit-scrollbar-thumb{
+    background-color: rgb(172, 172, 252);
+    border-radius: 0.4rem;
+}
+div.body h1.portofolio_title{
+    text-align: center;
+    font-size: 3.5rem;
+    font-weight: bold;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+span{
+    text-transform: uppercase;
+}
+
+
+@media(max-width: 1000px){
+    div.body{
+        position: relative;
+        width: 100%;
+    }
+}

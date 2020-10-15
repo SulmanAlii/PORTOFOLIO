@@ -1,0 +1,53 @@
+div.frontend {
+    display: flex;
+  justify-content: center;
+}
+
+
+
+div.main_div_skills h1.skill_title{
+    font-size: 2.8rem;
+    text-align: center;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 600;
+}
+
+div.backend{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+div._skills{
+    border: 1px solid green;
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 1rem;
+}
+
+div._skills img {
+    height: 15rem;
+    margin-bottom: 2rem;
+    width: 100%;
+}
+
+h2._title{
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    font-size: 2.2rem;
+    text-align: center;
+    font-weight: 500;
+}
+
+div._row2_skills{
+    margin-top: 1.5rem;
+    
+}
+
+div.other_skills{
+    display: flex;
+    justify-content: center;
+}

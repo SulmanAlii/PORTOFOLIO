@@ -1,0 +1,133 @@
+div.project{
+    width: 75%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100vh;
+    overflow-y: visible;
+    overflow-x: hidden;
+    
+}
+
+.project .projectTitle{
+    font-size: 4rem;
+    margin-left: 0.4rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+div.project::-webkit-scrollbar{
+    overflow-y: visible;
+    width: 1rem;
+    border-radius: 0.4rem;
+}
+
+div.project::-webkit-scrollbar-thumb{
+    background-color: rgb(172, 172, 252);
+    border-radius: 0.4rem;
+}
+
+div.project_info{
+    display: flex;
+    flex-direction: column;
+    margin: 1.5rem;
+    
+
+}
+
+div.project_info a{
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    border: none;
+    background: #ff7e7e;
+    width: fit-content;
+    padding: 0.7rem;
+    border-radius: 0.4rem;
+}
+
+div.project_info h1{
+    margin-bottom: 0.7rem;
+}
+div.project_title{
+    display: flex;
+}
+
+div.project_info img{
+    height: 18rem;
+    object-fit: contain;
+    border-radius: 0.9rem;
+    margin-right: 1rem;
+}
+
+div.project_info h1{
+    margin-left: -1rem;
+}
+
+div.project_info h1::after{
+    content: "2020";
+    border-left: 1px solid gray;
+    margin-left: 0.5rem;
+    padding-left: 0.4rem;
+    color: #393939;
+    font-weight: 200;
+
+}
+
+
+div.project_info .about_info{
+    margin-right: 2rem;
+    margin-left: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+div.project_info .about_info p{
+    max-width: 30rem;
+    font-size: 1.5rem;
+    font-family: 'Barlow Condensed', sans-serif;
+    line-height: 1.5rem;
+}
+
+div.project_info .about_info a.website_link:hover{
+    border-bottom: 1px solid black;
+    width: 16.5rem;
+}
+
+div.tech_used_info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+div.tech_used_info span{
+    background: #ffdada;
+    margin-right: 0.3rem;
+    text-transform: uppercase;
+    
+}
+
+div.tech_used_info h4{
+    margin-bottom: 0.5rem;
+}
+
+h3{
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+@media(max-width : 1085px){
+    div.project_info .about_info p{
+        font-size: 1.3rem;
+        line-height: 1.3rem;
+    }
+}
+
+@media(max-width : 1000px){
+    div.project{
+        position: relative;
+        width: 100%;
+    }
+}

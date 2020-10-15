@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+
+div.main{
+    position: relative;
+}
+
+div.hamberger_menu{
+    position: absolute;
+    right: 20px;
+    top: 5px;
+    width: 20px;
+    height: 30px;
+    visibility: hidden;
+    transition: all 0.5s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
+div.line{
+    width: 25px;
+    height: 3px;
+    background-color: black;
+
+
+
+}
+
+.change div.primera_linia {
+ 
+    transform: rotateZ(-45deg) translate(-8px, 5px);
+    
+}
+.change div.segunda_linia{
+  
+    opacity: 0;
+}
+
+.change div.tercera_linia{
+    transform: rotateZ(45deg) translate(-5px, -2px);
+
+}
+
+
+nav.nav{
+    background-color: rgb(255 188 106);
+    height: 100vh;
+    width: 25%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+nav.nav img{
+    border-radius: 50%;
+    height: 11rem;
+    object-fit: contain;
+    width: 11rem;
+    margin-top: 1rem;
+}
+nav.nav strong{
+    font-size: 3.5rem;
+    font-family: 'Poppins', sans-serif;
+}
+nav.nav h4{
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+
+div.nav_titles{
+    display: grid;
+    margin-top: 7rem;
+    width: 100%;
+    text-align: left;
+    font-family: 'Poppins', sans-serif;
+    margin-left: 3rem;
+    font-size: 1.4rem;
+}
+div.nav_titles a{
+    text-decoration: none;
+    color: black;
+    margin: 0.5rem;
+}
+
+div.nav_titles a:hover{
+    color: rgb(44, 44, 44);
+}
+
+.nActive{
+    color: black;
+}
+nav.nav .contact_title{
+    font-size: 1.3rem;
+    text-decoration: none;
+    width: 100%;
+    text-align: left;
+    margin-left: 2rem;
+    margin-top: 4rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+div.contact_section{
+    width: 100%;
+    text-align: left;
+    margin-top: 6rem;
+}
+
+div.contact_icons{
+    margin-left: 2rem;
+    margin-top: 0.3rem;
+}
+
+div.contact_icons ._icon{
+    font-size: 2rem;
+    margin-right: 0.2rem;
+    color: rgb(70, 70, 70);
+
+
+}
+
+
+div.contact_icons ._icon:hover{
+    color: black;
+}
+
+
+
+@media(max-width : 1000px){
+    nav.nav{
+        width: 100%;
+        background-color: rgb(255 188 106);
+
+    }
+
+    div.nav_titles{
+        text-align: right;
+        margin-left: 0;
+        position: absolute;
+        right: 10px;
+        top: 10px;
+    }
+    div.contact_section{
+        text-align: right;
+        position: absolute;
+        right: 10px;
+        top: 10px;
+    }
+   
+
+    div.hamberger_menu{
+        visibility: visible;
+       
+    }
+   
+   
+}
