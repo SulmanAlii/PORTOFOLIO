@@ -31,25 +31,26 @@ div.line{
     width: 25px;
     height: 3px;
     background-color: black;
-
-
+    transition: all 0.4s;
 
 }
 
-.change div.primera_linia {
+div.change .primera_linia {
  
-    transform: rotateZ(-45deg) translate(-8px, 5px);
+    transform: rotateZ(-405deg) translate(-12px, 5px);
     
 }
-.change div.segunda_linia{
+div.change .segunda_linia{
   
     opacity: 0;
 }
 
-.change div.tercera_linia{
-    transform: rotateZ(45deg) translate(-5px, -2px);
+div.change .tercera_linia{
+    transform: rotateZ(405deg) translate(-9px, -2px);
 
 }
+
+
 
 
 nav.nav{
@@ -141,6 +142,8 @@ div.contact_icons ._icon:hover{
     nav.nav{
         width: 100%;
         background-color: rgb(255 188 106);
+        height: 300px;
+        margin-top: -300px;
 
     }
 
@@ -161,7 +164,12 @@ div.contact_icons ._icon:hover{
 
     div.hamberger_menu{
         visibility: visible;
+        position: fixed;
        
+    }
+
+    nav.responsiveNav{
+        margin-top: 0;
     }
    
    
