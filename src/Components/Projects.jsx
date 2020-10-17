@@ -6,6 +6,11 @@ import amazon from "../images/amazon_clone.JPG";
 import weather from "../images/weather.JPG";
 
 const Projects = () => {
+
+
+
+
+  
   return (
     <div className="project">
       <h1 className="projectTitle">PROJECTS</h1>

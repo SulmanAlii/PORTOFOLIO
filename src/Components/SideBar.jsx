@@ -31,7 +31,7 @@ const SideBar = () => {
     <>
       <div className="main">
         {active2 ?
-          <nav className="nav ">
+          <nav className="nav">
             <img src={cvImage} alt="img" />
             <span>
               <strong>SULMAN ALI</strong>
@@ -63,7 +63,7 @@ const SideBar = () => {
              
           </nav>
           :  
-          <nav className="nav responsiveNav">
+          <nav className=" nav responsiveNav">
             <img src={cvImage} alt="img" />
             <span>
               <strong>SULMAN ALI</strong>

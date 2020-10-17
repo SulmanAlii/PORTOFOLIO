@@ -52,3 +52,13 @@ div.other_skills{
     display: flex;
     justify-content: center;
 }
+
+
+@media(max-width: 700px){
+    div._skills{
+        padding: 1rem;
+        margin-right: 0.4rem;
+        margin-left: 0.4rem;
+
+    }
+}
