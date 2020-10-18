@@ -5,7 +5,7 @@ import '../CSS/cv.css';
 function CV() {
     return (
         <div className="CV">
-            <embed src={curriculumVitae} />
+            <embed src={curriculumVitae}  type="application/pdf"/>
         </div>
     )
 }

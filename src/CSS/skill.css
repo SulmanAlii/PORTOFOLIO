@@ -19,7 +19,7 @@ div.backend{
 }
 
 div._skills{
-    border: 1px solid green;
+    border: 1px solid #d5d5d5;
     padding: 3rem;
     display: flex;
     flex-direction: column;
@@ -60,5 +60,14 @@ div.other_skills{
         margin-right: 0.4rem;
         margin-left: 0.4rem;
 
+    }
+}
+
+@media(max-width: 500px){
+    div._skills img{
+        margin-bottom: 0;
+    }
+    div.frontend{
+        display: block;
     }
 }

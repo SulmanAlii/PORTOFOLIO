@@ -177,3 +177,39 @@ div.contact_icons ._icon:hover{
    
    
 }
+
+@media(max-width: 500px){
+
+    nav.nav{
+        height: 350px;
+        margin-top: -350px;
+    }
+    div.nav_titles{
+        right: 5px;
+    display: flex;
+   text-align: left;
+   top: 24.5rem;
+   justify-content: center;
+
+    }
+    div.contact_section{
+        top: 16rem;
+        text-align: center;
+
+    }
+    div.contact_icons ._icon{
+        font-size: 3rem;
+    }
+    
+    
+    nav.nav .contact_title{
+        visibility: hidden;
+    }
+
+    nav.responsiveNav{
+        margin-top: 0;
+    }
+    a:hover{
+    border-bottom: 1px solid black;
+    }
+}

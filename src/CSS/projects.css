@@ -59,6 +59,9 @@ div.project_info img{
     border-radius: 0.9rem;
     margin-right: 1rem;
 }
+img.amazon_img{
+    height: 16rem !important;
+}
 
 div.project_info h1{
     margin-left: -1rem;
@@ -132,4 +135,41 @@ h3{
         top: 3.5rem;
     }
    
+}
+
+@media(max-width : 768px){
+    div.project_info .about_info {
+        margin-left: 0rem;
+    }
+    div.project_info .about_info p{
+        max-width: 100%;
+    }
+    div.project_title{
+        display: block;
+    }
+    div.infoAboutProject{
+        margin-bottom: 2rem;
+    }
+    div.linkBtn{
+        margin-bottom: 2rem;
+    }
+    div.tech_used_project{
+        margin-bottom: 2rem;
+    }
+    div.project_info img{
+        width: 100%;
+        height: 33rem; 
+        object-fit: fill;
+        margin-bottom: 0.5rem;
+
+    }
+   
+}
+
+@media(max-width:450px){
+    div.project_info img{
+        height: 20rem;
+        object-fit:fill;
+    }
+
 }
