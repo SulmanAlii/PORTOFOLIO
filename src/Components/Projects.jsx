@@ -32,15 +32,7 @@ const Projects = () => {
                 A simple application basically made to be able to test the different Javascript functionalities, for example delete a book, add or search. 
             </p>
               </div>
-            <div className="linkBtn">
-            <a
-              className="website_link"
-              href="file:///C:/Users/Usuario/Desktop/vsProjects/Library/library.html"
-              target="_blank"  without rel="noopener noreferrer"
-            >
-              GO TO WEBSITE
-            </a>
-            </div>
+           
           </div>
           <div className="tech_used_info">
           <div className="tech_used_project">
@@ -51,9 +43,9 @@ const Projects = () => {
             </div>
             <div>
 
-              {/* <a href="https://github.com/SulmanAlii/Netflix-clone-fetch-TMDB-API-Firebase"  target="_blank" rel="noopener noreferrer">
+              <a href="https://github.com/SulmanAlii/Libraryy"  target="_blank" rel="noopener noreferrer">
               GITHUB 
-              </a> */}
+              </a>
               </div>
             </div>
         </div>
@@ -73,7 +65,9 @@ const Projects = () => {
             <h3>About </h3>
             <p>
 
-            
+            {/* Aplicación web donde la página recibe datos (películas) de una API pública (MovieDB)
+                y se muestra por tipo. Esta aplicación se centra más en la parte Front-end
+                aunque he trabajado con Firebase (cada usuario puede comentar cualquier película y ver su comentario). */}
                
                 Web application where the page receives data (movies) from a public API (MovieDB) 
                 and is displaying by type. This application is focused more on the Front-end part 
@@ -118,7 +112,10 @@ const Projects = () => {
             <div  className="infoAboutProject">
             <h3>About</h3>
             <p>
-             
+              {/* Aplicación web en el cual un usuario volverá después de iniciar
+              sesión a la pagina de localhost y posteriormente requerir datos de
+              API DE SPOTIFY y una vez tenga los datos, mostrar el playlist y
+              las canciones del usuario logeado. */}
 
               Web application in which a user will return after starting
               session to the localhost page and later require data from
@@ -165,7 +162,10 @@ const Projects = () => {
           <div className="infoAboutProject">
             <h3>About</h3>
             <p>
-                
+                {/* Utilizando la autenticación de Firebase el usuario puede logear y
+                salir de la sesión, y una vez logeado el usuario puede añadir
+                productos a su carro de compra y posteriormente quitar algun
+                producto de la compra si lo prefiero. */}
 
 
                 Using Firebase authentication the user can log in and
@@ -214,7 +214,11 @@ const Projects = () => {
           <div className="infoAboutProject">
             <h3>About</h3>
             <p>
-            
+              {/* Aplicación de metereologia que permite saber en tiempo real el
+              clima en cada ciudad del mundo, mostrándolas por ciudades de cada
+              continente. Otra función que tiene la aplicación es que permite
+              buscar el clima de cualquier ciudad al intoducir el nombre el
+              buscador. */}
                 
               
               Meteorology application that allows to know in real time the climate in each city of the world, 

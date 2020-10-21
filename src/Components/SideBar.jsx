@@ -49,7 +49,7 @@ const SideBar = () => {
               </Link>
             </div>
             <div className="contact_section">
-              <span className="contact_title">CONTACT ME: </span>
+              <span className="contact_title">GET IN TOUCH</span>
               <div className="contact_icons">
                 <a href="https://www.linkedin.com/in/sulman-ali-54bb211b2?jobid=1234&lipi=urn%3Ali%3Apage%3Ad_jobs_easyapply_pdfgenresume%3BszxM2gaMQn29ubahVlzXMQ%3D%3D&licu=urn%3Ali%3Acontrol%3Ad_jobs_easyapply_pdfgenresume-v02_profile"
                   target="_blank"
@@ -57,8 +57,13 @@ const SideBar = () => {
                 </a>
                 
                 <a href="https://github.com/SulmanAlii" target="_blank"
-                  rel="noopener noreferrer" ><GitHubIcon className="_icon" /></a>
+                  rel="noopener noreferrer" ><GitHubIcon className="_icon" />
+                </a>
+                <a href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=sulmanm673@gmail.com" target="_blank"  rel="noopener noreferrer">
+                  <i class="fa fa-envelope" aria-hidden="true"></i>
+                </a>
               </div>
+           
             </div>
              
           </nav>
@@ -81,7 +86,7 @@ const SideBar = () => {
               </Link>
             </div>
             <div className="contact_section">
-              <span className="contact_title">CONTACT ME: </span>
+              <span className="contact_title">GET IN TOUCH</span>
               <div className="contact_icons">
                 <a href="https://www.linkedin.com/in/sulman-ali-54bb211b2?jobid=1234&lipi=urn%3Ali%3Apage%3Ad_jobs_easyapply_pdfgenresume%3BszxM2gaMQn29ubahVlzXMQ%3D%3D&licu=urn%3Ali%3Acontrol%3Ad_jobs_easyapply_pdfgenresume-v02_profile"
                   target="_blank"
@@ -89,18 +94,15 @@ const SideBar = () => {
                 </a>
                 
                 <a href="https://github.com/SulmanAlii" target="_blank"
-                  rel="noopener noreferrer" ><GitHubIcon className="_icon" /></a>
+                  rel="noopener noreferrer" ><GitHubIcon className="_icon" />
+                </a>
+                <a href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=sulmanm673@gmail.com">
+                  <i class="fa fa-envelope" aria-hidden="true"></i>
+                </a>
               </div>
-            </div>
-             
+              
+            </div>      
           </nav>
-          
-          
-          
-          
-          
-          
-          
           }
 
 {active ?  <div className="hamberger_menu" onClick={menu_btn}>

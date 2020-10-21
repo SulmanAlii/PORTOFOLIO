@@ -121,6 +121,9 @@ h3{
 }
 
 
+
+/* MEDIA QUERY */
+
 @media(max-width : 1085px){
     div.project_info .about_info p{
         font-size: 1.3rem;
@@ -166,7 +169,7 @@ h3{
    
 }
 
-@media(max-width:450px){
+@media(max-width:550px){
     div.project_info img{
         height: 20rem;
         object-fit:fill;

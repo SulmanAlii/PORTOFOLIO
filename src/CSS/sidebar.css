@@ -64,9 +64,9 @@ nav.nav{
 }
 nav.nav img{
     border-radius: 50%;
-    height: 11rem;
+    height: 16rem;
     object-fit: contain;
-    width: 11rem;
+    width: 16rem;
     margin-top: 1rem;
 }
 nav.nav strong{
@@ -90,8 +90,9 @@ div.nav_titles{
 }
 div.nav_titles a{
     text-decoration: none;
+    display: inline-block;
     color: black;
-    margin: 0.5rem;
+    margin: 0.3rem;
 }
 
 div.nav_titles a:hover{
@@ -122,8 +123,21 @@ div.contact_icons{
     margin-top: 0.3rem;
 }
 
+i.fa-envelope{
+    margin-left: 0.4rem;
+    font-size: 3rem;
+    color: #c14747;
+    position: relative;
+    top: -4px;
+}
+
+i.fa-envelope:hover{
+    color: rgb(245, 73, 73);
+}
+
+
 div.contact_icons ._icon{
-    font-size: 2rem;
+    font-size: 3rem;
     margin-right: 0.2rem;
     color: rgb(70, 70, 70);
 
@@ -211,5 +225,9 @@ div.contact_icons ._icon:hover{
     }
     a:hover{
     border-bottom: 1px solid black;
+    }
+    i.fa-envelope{
+        font-size: 3.3rem;
+      
     }
 }
