@@ -31,6 +31,12 @@ function CV() {
           <div className="summary summary_education">
             <h2>EDUCATION</h2>
             <ul className="margin_beetween_elements">
+              <h4>FUNDACIÓ ESPLAI</h4>
+              <li>
+               FULL STACK JAVASCRIPT BOOTCAMP · (sep 2020-Present)
+              </li>
+            </ul>
+            <ul className="margin_beetween_elements">
               <h4>Institut Puig Castellar</h4>
               <li>
                 DAM(Desarrollador de aplicaciones Web), Computer Programming,
@@ -43,7 +49,7 @@ function CV() {
             </ul>
             <ul className="margin_beetween_elements">
               <h4>IES Pau Casals</h4>
-              <li>HIGH SCHOOL DIPLOMA(ESTUDIOS SECUNDARIOS OBLIGATORIOS )</li>
+              <li>HIGH SCHOOL DIPLOMA(ESTUDIOS SECUNDARIOS OBLIGATORIOS · (2010-2014))</li>
             </ul>
           </div>
               </div>
