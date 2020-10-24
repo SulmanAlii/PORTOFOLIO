@@ -5,6 +5,7 @@ import { BrowserRouter, Switch, Route } from "react-router-dom";
 import Body from "../src/Components/Body";
 import Projects from './Components/Projects';
 import CV from './Components/CV';
+import NotFound from './Components/NotFound';
 
 
 function App() {
@@ -23,6 +24,11 @@ function App() {
           <Route exact path="/cv">
           <SideBar />
             <CV/>
+          </Route>
+          <Route >
+            <SideBar/>
+            <NotFound />
+
           </Route>
         </Switch>
       </div>

@@ -1,0 +1,23 @@
+.not_found_main{
+  display: grid;
+  place-items: center;
+    font-size:2rem;
+    position: absolute;
+    width: 75%;
+    right: 0;
+    top: 0;
+    height: 100%;
+}
+
+.not_found_main img{
+    width: 80%;
+}
+
+@media(max-width:1000px){
+    .not_found_main{
+    position: relative;
+    width: 100%;
+    margin-top: 3.5rem;
+
+    }
+}
