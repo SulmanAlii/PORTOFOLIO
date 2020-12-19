@@ -19,12 +19,10 @@ function CV() {
             <h2 className="margin_beetween_elements">SUMMARY</h2>
             <p className="margin_beetween_elements">Hello!</p>
             <p className="margin_beetween_elements">
-              At this moment I have already finished the higher degree of
-              computing specifically in Multiplatform Application Developer
-              (DAM). I have always been interested in the subject of computing,
-              and I have prepared myself with the aim of fulfilling my
-              professional profile. I hope to have the opportunity to talk with
-              you and expose myknowledge and to be part of the team.
+            I am currently doing a Full Stack Javascript Bootcamp (ReactJs + NodeJs + MySQL) at Fundación Esplai.
+            I recently completed my higher degree in computer science specifically in Multiplatform Application Development (DAM).
+            I have always been interested in working with new technologies and being part of a great team, and I have prepared myself with the goal of meeting the professional profile.
+            I hope to have the opportunity to talk to you and share my knowledge and be able to be part of the work team.
             </p>
 
             <p className="margin_beetween_elements">Greeting Sulman Ali</p>
@@ -33,25 +31,25 @@ function CV() {
           <div className="summary summary_education">
             <h2>EDUCATION</h2>
             <ul className="margin_beetween_elements">
-              <h4>FUNDACIÓ ESPLAI</h4>
+              <h4>FULL STACK JAVASCRIPT BOOTCAMP · (sep 2020-Present)</h4>
               <li>
-               FULL STACK JAVASCRIPT BOOTCAMP · (sep 2020-Present)
+              FUNDACIÓN ESPLAI  
               </li>
             </ul>
             <ul className="margin_beetween_elements">
-              <h4>Institut Puig Castellar</h4>
+              <h4>Desarrollador de Aplicaciones Multiplatforma), Computer Programming,
+              Multiplatform</h4>
               <li>
-                DAM(Desarrollador de Aplicaciones Multiplatforma), Computer Programming,
-                Multiplatform · (2016 - 2019)
+              Institut Puig Castellar · (2016 - 2019)
               </li>
             </ul>
             <ul className="margin_beetween_elements">
-              <h4>IES Pau Casals</h4>
-              <li>Bachelor's degree, Science/technologic · (2014 - 2016)</li>
+              <h4>Bachelor's degree, Science/technologic</h4>
+              <li>IES Pau Casals · (2014 - 2016)</li>
             </ul>
             <ul className="margin_beetween_elements">
-              <h4>IES Pau Casals</h4>
-              <li>HIGH SCHOOL DIPLOMA(ESTUDIOS SECUNDARIOS OBLIGATORIOS · (2010-2014))</li>
+              <h4>HIGH SCHOOL DIPLOMA(ESTUDIOS SECUNDARIOS OBLIGATORIOS</h4>
+              <li>IES Pau Casals · (2010-2014))</li>
             </ul>
           </div>
               </div>

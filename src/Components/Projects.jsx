@@ -58,6 +58,8 @@ const Projects = () => {
           <span>JAVASCRIPT</span>
           <span>EXPRESSJS</span>
           <span>BOOTSTRAP</span>
+          <span>REDUX</span>
+
         </div>
         <div>
 
@@ -73,7 +75,7 @@ const Projects = () => {
       {/* NETFLIX PROJECT */}
 
       <div className="project_info">
-        <h1>1.NETFLIX CLONE</h1>
+        <h1>2.NETFLIX CLONE</h1>
         <div className="project_title">
           <div className="img_div">
            <img src={netflixProject} alt="" />
@@ -123,7 +125,7 @@ const Projects = () => {
       {/* SPOTIFY PROJECT */}
 
       <div className="project_info">
-        <h1>2.SPOTIFY CLONE</h1>
+        <h1>3.SPOTIFY CLONE</h1>
         <div className="project_title">
           <img src={spotify} alt="" />
           <div className="about_info">
@@ -173,7 +175,7 @@ const Projects = () => {
       {/* AMAZON CLONE  */}
 
       <div className="project_info">
-        <h1>3. AMAZON CLONE</h1>
+        <h1>4. AMAZON CLONE</h1>
         <div className="project_title">
           <img src={amazon} alt=""  className="amazon_img"/>
           <div className="about_info">
@@ -225,7 +227,7 @@ const Projects = () => {
       {/* WEATHET APP  */}
 
       <div className="project_info">
-        <h1>4. WEATHCITY</h1>
+        <h1>5. WEATHCITY</h1>
         <div className="project_title">
           <img src={weather} alt="" />
           <div className="about_info">

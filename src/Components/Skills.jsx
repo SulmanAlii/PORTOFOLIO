@@ -16,6 +16,8 @@ import nodejs from "../images/nodejs.png";
 import odoo from "../images/odoo.png";
 import postgresql from "../images/postgresql.png";
 import vscode from "../images/vscode.ico";
+import redux from "../images/redux.png";
+
 
 const Skills = () => {
   return (
@@ -41,6 +43,10 @@ const Skills = () => {
             <div className="_skills ">
               <img src={react} alt="REACTJS" />
               <span>REACTJS</span>
+            </div>
+            <div className="_skills ">
+              <img src={redux} alt="REACTJS" />
+              <span>REDUX</span>
             </div>
           </div>
           <div className="frontend _row2_skills">
@@ -99,7 +105,7 @@ const Skills = () => {
             </div>
             <div className="_skills">
               <img src={github} alt="firebase" />
-              <span>GITHUB</span>
+              <span>GIT</span>
             </div>
           </div>
           <div className="_row2_skills other_skills">
