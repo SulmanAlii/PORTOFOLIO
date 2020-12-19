@@ -1,5 +1,5 @@
 import React,{useState} from "react";
-import cvImage from "../images/0.jpg";
+import cvImage from "../images/SulmanAli_CV.jpg";
 import '../CSS/sidebar.css';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import GitHubIcon from '@material-ui/icons/GitHub';

@@ -4,7 +4,8 @@ import netflixProject from "../images/netflix_capture.JPG";
 import spotify from "../images/spotify.JPG";
 import amazon from "../images/amazon_clone.JPG";
 import weather from "../images/weather.JPG";
-import library from '../images/library.JPG';
+import keep from "../images/keep.PNG";
+
 
 const Projects = () => {
 
@@ -17,45 +18,62 @@ const Projects = () => {
       <h1 className="projectTitle">PROJECTS</h1>
       <hr />
 
-    {/* LIBRERIA */}
-      
-      <div className="project_info">
-        <h1>1.LIBRARY</h1>
-        <div className="project_title">
-          <div className="img_div">
-           <img src={library} alt="" />
-          </div>
-          <div className="about_info">
-            <div className="infoAboutProject">
-            <h3>About </h3>
-            <p>
-                A simple application basically made to be able to test the different Javascript functionalities, for example delete a book, add or search. 
-            </p>
-              </div>
-           
-          </div>
-          <div className="tech_used_info">
-          <div className="tech_used_project">
-              <h3>Technology</h3>
-              <span>JAVASCRIPT</span>
-              <span>HTML</span>
-              <span>CSS</span>
-            </div>
-            <div>
+    {/* KEEP IT BLUE */}
+    <div className="project_info">
+    <h1>1.KEEP IT BLUE</h1>
+    <div className="project_title">
+      <div className="img_div">
+       <img src={keep} alt="" />
+      </div>
+      <div className="about_info">
+        <div className="infoAboutProject">
+        <h3>About </h3>
+        <p>
 
-              <a href="https://github.com/SulmanAlii/Libraryy"  target="_blank" rel="noopener noreferrer">
-              GITHUB 
-              </a>
-              </div>
-            </div>
+        {/* Aplicación web donde la página recibe datos (películas) de una API pública (MovieDB)
+            y se muestra por tipo. Esta aplicación se centra más en la parte Front-end
+            aunque he trabajado con Firebase (cada usuario puede comentar cualquier película y ver su comentario). */}
+           
+            Application where users can publish their comments on the state of a beach by adding images and being 
+            able to see the state of each beach with user authentication. In the end, the purpose of the application 
+            is to improve our beaches in Barcelona and improve our environment.
+        </p>
+          </div>
+        <div className="linkBtn">
+        <a
+          className="website_link"
+          href="https://keepit-blue.herokuapp.com/"
+          target="_blank"  without rel="noopener noreferrer"
+        >
+          GO TO WEBSITE
+        </a>
         </div>
       </div>
+      <div className="tech_used_info">
+      <div className="tech_used_project">
+          <h3>Technology</h3>
+          <span>REACTJS</span>
+          <span>MYSQL</span>
+          <span>NODEJS</span>
+          <span>JAVASCRIPT</span>
+          <span>EXPRESSJS</span>
+          <span>BOOTSTRAP</span>
+        </div>
+        <div>
+
+          <a href="https://github.com/SulmanAlii/Keep_It_Blue_FrontEND"  target="_blank" rel="noopener noreferrer">
+          GITHUB 
+          </a>
+          </div>
+        </div>
+    </div>
+  </div>
 
 
       {/* NETFLIX PROJECT */}
 
       <div className="project_info">
-        <h1>2.NETFLIX CLONE</h1>
+        <h1>1.NETFLIX CLONE</h1>
         <div className="project_title">
           <div className="img_div">
            <img src={netflixProject} alt="" />
@@ -105,7 +123,7 @@ const Projects = () => {
       {/* SPOTIFY PROJECT */}
 
       <div className="project_info">
-        <h1>3.SPOTIFY CLONE</h1>
+        <h1>2.SPOTIFY CLONE</h1>
         <div className="project_title">
           <img src={spotify} alt="" />
           <div className="about_info">
@@ -155,7 +173,7 @@ const Projects = () => {
       {/* AMAZON CLONE  */}
 
       <div className="project_info">
-        <h1>4. AMAZON CLONE</h1>
+        <h1>3. AMAZON CLONE</h1>
         <div className="project_title">
           <img src={amazon} alt=""  className="amazon_img"/>
           <div className="about_info">
@@ -207,7 +225,7 @@ const Projects = () => {
       {/* WEATHET APP  */}
 
       <div className="project_info">
-        <h1>5. WEATHCITY</h1>
+        <h1>4. WEATHCITY</h1>
         <div className="project_title">
           <img src={weather} alt="" />
           <div className="about_info">

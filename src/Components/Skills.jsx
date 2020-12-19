@@ -66,7 +66,7 @@ const Skills = () => {
           <div className="backend">
             <div className="_skills ">
               <img src={nodejs} alt="NODEJS" />
-              <span>NODEJS</span>
+              <span>NODEJS <strong>(ExpressJS)</strong> </span>
             </div>
             <div className="_skills ">
               <img src={postgresql} alt="postgresql" />
@@ -76,6 +76,10 @@ const Skills = () => {
               <img src={firebase} alt="firebase" />
               <span>FIREBASE</span>
             </div>
+            <div className="_skills ">
+            <img src="https://i2.wp.com/storage.googleapis.com/torbjorn-wp-images/2013/08/mysql-logo.png?fit=300%2C300&ssl=1" alt="firebase" />
+            <span>MySQL</span>
+          </div>
           </div>
 
         </div>
@@ -83,7 +87,7 @@ const Skills = () => {
         {/* OTHER */}
 
         <div>
-          <h2 className="_title">OTHER</h2>
+          <h2 className="_title">PROGRAMMING LANGUAGES & SKILLS</h2>
           <div className="frontend other">
             <div className="_skills">
               <img src={java} alt="java" />

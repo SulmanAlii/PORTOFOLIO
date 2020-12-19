@@ -1,6 +1,6 @@
 import React from "react";
-import curriculumVitae from "../doc/ProfileLinkedin.pdf";
 import "../CSS/cv.css";
+import { Document, Page } from 'react-pdf';
 
 function CV() {
   return (
@@ -10,7 +10,9 @@ function CV() {
               <h1>Sulman Ali</h1>
               <h3>Junior Web Developer</h3>
             </div>
+
       <hr></hr>
+      
       <div className="cv_info_main">
         <div className="left_perfil">
           <div className="summary">
@@ -39,8 +41,8 @@ function CV() {
             <ul className="margin_beetween_elements">
               <h4>Institut Puig Castellar</h4>
               <li>
-                DAM(Desarrollador de aplicaciones Web), Computer Programming,
-                SpecificApplications · (2016 - 2019)
+                DAM(Desarrollador de Aplicaciones Multiplatforma), Computer Programming,
+                Multiplatform · (2016 - 2019)
               </li>
             </ul>
             <ul className="margin_beetween_elements">
@@ -59,19 +61,10 @@ function CV() {
             <h2>EXPERIENCE</h2>
             <div className="experience_">
               <ul>
-                <h4>FREELANCE</h4>
-                <li>
-                  May 2019 - sep 2020 (1 year 4 months)<br/>
-                  <small>Barcelona, Catalonia, Spain</small>
-                </li>
-              </ul>
-            </div>
-            <div className="experience_">
-              <ul>
                 <h4>IES NUMÁNCIA</h4>
                 <h4 className="frontend_cv">Frontend Developing</h4>
                 <li>
-                  January 2018 - May 2018 (5 months)<br/>
+                 2020-01- 2020-06 (5 months)<br/>
                   <small>Barcelona, Catalonia, Spain</small>
                 </li>
               </ul>
